@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.olavodecarvalho.org/blog/">
+<title>Olavo de Carvalho</title>
+<link>http://www.olavodecarvalho.org/blog/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2004-02-26T18:23:41-04:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.661" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000010.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000009.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000008.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000007.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000006.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000005.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000004.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000003.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000002.html" />
+<rdf:li rdf:resource="http://www.olavodecarvalho.org/blog/archives/000001.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000010.html">
+<title>Meu cachorro</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000010.html</link>
+<description> Chama-se Robin e é um Weimaraner de dois anos. A homenagem que aqui lhe presto não é vaidosa nem despropositada. É que andei estudando o bichinho e, depois de comparar suas expressões fônicas às últimas declarações da filósofa Marilena...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2004-02-26T18:23:41-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000009.html">
+<title>O filósofo-mirim</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000009.html</link>
+<description>I. As direções do espaço &quot;A cama é um móvel metafísico.&quot; (Nelson Rodrigues) Meu primeiro experimento de investigação filosófica deu-se na cama - e não pelos motivos licenciosos que a palavra pode sugerir hoje em dia. Eu era apenas um...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2004-02-26T18:19:19-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000008.html">
+<title>Um homenzinho filosófico</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000008.html</link>
+<description>Tempos atrás, quando a leitura de As Portas da Percepção de Aldous Huxley estava fresca na memória da geração Woodstock e ainda era moda louvar as virtudes iluminativas da ingestão de drogas, conheci dois irmãos que faziam viagens ao menos...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2004-01-02T20:34:39-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000007.html">
+<title>Confissões de um brontossauro</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000007.html</link>
+<description>Na caracterologia de René Le Senne, sou um “sentimental-passional”, o que quer dizer a mistura exata de dois tipos opostos. O sentimental puro é um contemplativo romântico que, desiludido com o mundo, prefere uma derrota digna ao envolvimento com a...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2003-08-24T14:17:47-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000006.html">
+<title>Digestão intelectual</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000006.html</link>
+<description>Tudo o que escrevi, incluindo o mais abstrato, nasceu direto da experiência -- do esforço de traduzir em símbolos e conceitos aquilo que a vida mesma parecia me dizer. Não me lembro de ter jamais reagido de maneira puramente intelectual...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2003-07-10T10:25:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000005.html">
+<title>Da águia de Haia ao papagaio de Evian</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000005.html</link>
+<description>É inacreditável. Diante das minhas observações sobre os discursos de Lula (&amp;#8220;Um clássico e um paralelo&amp;#8221;, O Globo, 7 jun. 2003), um petista enfezado metido a universitário me escreveu que eu ignorava ou desprezava a diferença entre gramática e lingüística....</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2003-06-10T16:11:58-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000004.html">
+<title>Tema a desenvolver</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000004.html</link>
+<description>Este país já se tornou indigno -- ou incapaz -- de ser examinado sob a ótica da filosofia política, que pressupõe, nos agentes do processo histórico, um mínimo indispensável de consistência, de realidade, de substancialidade. No Brasil de hoje tudo...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2003-06-02T10:39:33-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000003.html">
+<title>Bebês e chimpanzés</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000003.html</link>
+<description>Com poucos dias de intervalo, publicações científicas noticiaram que os chimpanzés são geneticamente humanos e que os bebês em gestação reconhecem as vozes de suas mães. Não é preciso ser muito esperto para antever as reações dos intelelectuais: a primeira...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2003-05-23T10:52:52-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000002.html">
+<title>Vantagem</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000002.html</link>
+<description>Uma das vantagens deste diário é que, se muitas das suas entradas podem virar artigos, outras podem complementar e corrigir os artigos publicados. Posso também aqui relacionar um artigo com outro, mostrando a continuidade do raciocínio, que escapa por vezes...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2003-05-23T10:51:25-04:00</dc:date>
+</item>
+<item rdf:about="http://www.olavodecarvalho.org/blog/archives/000001.html">
+<title>Diário do futuro</title>
+<link>http://www.olavodecarvalho.org/blog/archives/000001.html</link>
+<description>Nenhum diário é diário. O mais longo deles, em dezessete volumes, que Julien Green iniciou aos 26 anos e terminou aos 96, pula dias, semanas, meses. Não obstante, fica a intenção: documentar as impressões que passam, os pensamentos que talvez...</description>
+<dc:subject></dc:subject>
+<dc:creator>Olavo</dc:creator>
+<dc:date>2003-05-20T18:22:11-04:00</dc:date>
+</item>
+
+
+</rdf:RDF>

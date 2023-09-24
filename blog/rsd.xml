@@ -1,0 +1,12 @@
+<?xml version="1.0"?> 
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+  <service>
+    <engineName>Movable Type 2.661</engineName> 
+    <engineLink>http://www.movabletype.org/</engineLink>
+    <homePageLink>http://www.olavodecarvalho.org/blog/</homePageLink>
+    <apis>
+      <api name="MetaWeblog" preferred="true" apiLink="http://www.olavodecarvalho.org/cgi-bin/mt-xmlrpc.cgi" blogID="2" />
+      <api name="Blogger" preferred="false" apiLink="http://www.olavodecarvalho.org/cgi-bin/mt-xmlrpc.cgi" blogID="2" />
+    </apis>
+  </service>
+</rsd>
