@@ -3,4 +3,4 @@
   Access-Control-Allow-Origin: *
 
 /blog/*
-  Content-Type: text/html
+  ! Content-Type
