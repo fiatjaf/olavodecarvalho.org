@@ -1,150 +1,243 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>Olavo de Carvalho: Confissões de um brontossauro</title>
+    <title>Olavo de Carvalho: Confissï¿½es de um brontossauro</title>
 
-<link rel="stylesheet" href="/blog/styles-site.css" type="text/css" />
-<link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/index.rdf" />
+    <link rel="stylesheet" href="/blog/styles-site.css" type="text/css" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/blog/index.rdf"
+    />
 
-<link rel="start" href="/blog/" title="Home" />
-<link rel="prev" href="/blog/archives/000006.html" title="Digest&atilde;o intelectual" />
+    <link rel="start" href="/blog/" title="Home" />
+    <link
+      rel="prev"
+      href="/blog/archives/000006.html"
+      title="Digest&atilde;o intelectual"
+    />
 
-<link rel="next" href="/blog/archives/000008.html" title="Um homenzinho filos&oacute;fico" />
+    <link
+      rel="next"
+      href="/blog/archives/000008.html"
+      title="Um homenzinho filos&oacute;fico"
+    />
 
+    <script type="text/javascript" language="javascript">
+      <!--
 
-<script type="text/javascript" language="javascript">
-<!--
+      function OpenTrackback(c) {
+        window.open(
+          c,
+          'trackback',
+          'width=480,height=480,scrollbars=yes,status=yes'
+        )
+      }
 
-function OpenTrackback (c) {
-    window.open(c,
-                    'trackback',
-                    'width=480,height=480,scrollbars=yes,status=yes');
-}
+      var HOST = 'www.olavodecarvalho.org'
 
-var HOST = 'www.olavodecarvalho.org';
+      // Copyright (c) 1996-1997 Athenia Associates.
+      // http://www.webreference.com/js/
+      // License is granted if and only if this entire
+      // copyright notice is included. By Tomer Shiran.
 
-// Copyright (c) 1996-1997 Athenia Associates.
-// http://www.webreference.com/js/
-// License is granted if and only if this entire
-// copyright notice is included. By Tomer Shiran.
+      function setCookie(name, value, expires, path, domain, secure) {
+        var curCookie =
+          name +
+          '=' +
+          escape(value) +
+          (expires ? '; expires=' + expires.toGMTString() : '') +
+          (path ? '; path=' + path : '') +
+          (domain ? '; domain=' + domain : '') +
+          (secure ? '; secure' : '')
+        document.cookie = curCookie
+      }
 
-function setCookie (name, value, expires, path, domain, secure) {
-    var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "");
-    document.cookie = curCookie;
-}
+      function getCookie(name) {
+        var prefix = name + '='
+        var c = document.cookie
+        var nullstring = ''
+        var cookieStartIndex = c.indexOf(prefix)
+        if (cookieStartIndex == -1) return nullstring
+        var cookieEndIndex = c.indexOf(';', cookieStartIndex + prefix.length)
+        if (cookieEndIndex == -1) cookieEndIndex = c.length
+        return unescape(
+          c.substring(cookieStartIndex + prefix.length, cookieEndIndex)
+        )
+      }
 
-function getCookie (name) {
-    var prefix = name + '=';
-    var c = document.cookie;
-    var nullstring = '';
-    var cookieStartIndex = c.indexOf(prefix);
-    if (cookieStartIndex == -1)
-        return nullstring;
-    var cookieEndIndex = c.indexOf(";", cookieStartIndex + prefix.length);
-    if (cookieEndIndex == -1)
-        cookieEndIndex = c.length;
-    return unescape(c.substring(cookieStartIndex + prefix.length, cookieEndIndex));
-}
+      function deleteCookie(name, path, domain) {
+        if (getCookie(name))
+          document.cookie =
+            name +
+            '=' +
+            (path ? '; path=' + path : '') +
+            (domain ? '; domain=' + domain : '') +
+            '; expires=Thu, 01-Jan-70 00:00:01 GMT'
+      }
 
-function deleteCookie (name, path, domain) {
-    if (getCookie(name))
-        document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT";
-}
+      function fixDate(date) {
+        var base = new Date(0)
+        var skew = base.getTime()
+        if (skew > 0) date.setTime(date.getTime() - skew)
+      }
 
-function fixDate (date) {
-    var base = new Date(0);
-    var skew = base.getTime();
-    if (skew > 0)
-        date.setTime(date.getTime() - skew);
-}
+      function rememberMe(f) {
+        var now = new Date()
+        fixDate(now)
+        now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
+        setCookie('mtcmtauth', f.author.value, now, '', HOST, '')
+        setCookie('mtcmtmail', f.email.value, now, '', HOST, '')
+        setCookie('mtcmthome', f.url.value, now, '', HOST, '')
+      }
 
-function rememberMe (f) {
-    var now = new Date();
-    fixDate(now);
-    now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000);
-    setCookie('mtcmtauth', f.author.value, now, '', HOST, '');
-    setCookie('mtcmtmail', f.email.value, now, '', HOST, '');
-    setCookie('mtcmthome', f.url.value, now, '', HOST, '');
-}
+      function forgetMe(f) {
+        deleteCookie('mtcmtmail', '', HOST)
+        deleteCookie('mtcmthome', '', HOST)
+        deleteCookie('mtcmtauth', '', HOST)
+        f.email.value = ''
+        f.author.value = ''
+        f.url.value = ''
+      }
 
-function forgetMe (f) {
-    deleteCookie('mtcmtmail', '', HOST);
-    deleteCookie('mtcmthome', '', HOST);
-    deleteCookie('mtcmtauth', '', HOST);
-    f.email.value = '';
-    f.author.value = '';
-    f.url.value = '';
-}
+      //-->
+    </script>
+  </head>
 
-//-->
-</script>
+  <body>
+    <div id="banner">
+      <h1><a href="/blog/" accesskey="1">Olavo de Carvalho</a></h1>
+      <span class="description"></span>
+    </div>
 
+    <div id="container">
+      <div class="blog">
+        <div id="menu">
+          <a href="/blog/archives/000006.html">&laquo; Digestï¿½o intelectual</a>
+          |
 
+          <a href="/blog/">Main</a>
+          |
+          <a href="/blog/archives/000008.html"
+            >Um homenzinho filosï¿½fico &raquo;</a
+          >
+        </div>
+      </div>
 
+      <div class="blog">
+        <h2 class="date">agosto 24, 2003</h2>
 
+        <div class="blogbody">
+          <h3 class="title">Confissï¿½es de um brontossauro</h3>
 
-</head>
+          <p>
+            Na caracterologia de Renï¿½ Le Senne, sou um ï¿½sentimental-passionalï¿½,
+            o que quer dizer a mistura exata de dois tipos opostos. O
+            sentimental puro ï¿½ um contemplativo romï¿½ntico que, desiludido com o
+            mundo, prefere uma derrota digna ao envolvimento com a misï¿½ria
+            ambiente. O passional ï¿½ um ambicioso calculista, frio e paciente que
+            nunca desiste de seus objetivos e em geral acaba por alcanï¿½ï¿½-los. A
+            mistura significa que passo noventa por cento do tempo tentando me
+            persuadir a aceitar uma derrota digna, mas no fundo nï¿½o desisti de
+            nada e no fim dou um jeito de conseguir o que queria. Daï¿½ a demora
+            extraordinï¿½ria de tudo na minha vida. Publiquei meu primeiro livro
+            aos 48 anos. Comecei a lecionar numa universidade aos 50. Estreei
+            como articulista no <i>Globo </i>aos 53, uma idade em que as tchurma
+            sï¿½ pensa em aposentadoria. Com 56, tenho planos que requerem quatro
+            dï¿½cadas de trabalho.
+          </p>
 
-<body>
+          <p>
+            Esse esquema de existï¿½ncia exige longas esperas, quase inconcebï¿½veis
+            para o imediatismo brasileiro. Conservo meus sonhos dentro de mim,
+            em silï¿½ncio e banho-maria, longo tempo depois que o pessoal em volta
+            acredita que os abandonei, que jï¿½ estou em outra. Aos dezenove anos,
+            maravilhado com os ensaios de Otto Maria Carpeaux que descobri em
+            velhas ediï¿½ï¿½es poeirentas escondidas no fundo de uma biblioteca
+            pï¿½blica, prometi a mim mesmo reeditï¿½-los um dia com prefï¿½cio, notas,
+            as elegï¿½ncias todas. Comecei a realizar o plano aos 49 anos. O
+            segundo volume estï¿½ atrasado. Quando ninguï¿½m mais acreditar que ele
+            vai sair, podem ter a certeza de que chegarï¿½ ï¿½s livrarias.
+            <i>Thatï¿½s the story of my bloody life</i>.
+          </p>
 
-<div id="banner">
-<h1><a href="/blog/" accesskey="1">Olavo de Carvalho</a></h1>
-<span class="description"></span>
-</div>
+          <p>
+            O destino parece que me adestrou para esse passo extravagante, de
+            tartaruga ou brontossauro, imobilizando-me por sete anos numa cama,
+            doente, desde o nascimento. Eu passava semanas, meses com febre,
+            delirando. Era tanto tempo prostrado, arfando, que quando emergia
+            das sombras e me sentava na beirada da cama, tinha de reaprender a
+            andar. Achava duvidoso que minhas pernas obedecessem ao comando do
+            cï¿½rebro e ficava ali, ensaiando mentalmente, incrï¿½dulo, atï¿½ que elas
+            comeï¿½assem a se mover por si mesmas, restaurando minha confianï¿½a na
+            realidade do mundo fï¿½sico.
+          </p>
 
-<div id="container">
+          <p>
+            Como nunca tinha tido saï¿½de para poder comparar com a doenï¿½a, tudo
+            me parecia inteiramente normal e eu nunca me impacientava com o
+            estado de coisas. Ah, quanto vale a inocï¿½ncia! Um garoto saudï¿½vel,
+            que de repente se visse naquela situaï¿½ï¿½o, acrescentaria ï¿½s dores e
+            incomodidades o padecimento intolerï¿½vel da revolta. Eu, que nï¿½o
+            imaginava de maneira alguma que o mundo pudesse ser melhor, me
+            adaptava ao pior com a naturalidade de uma lagartixa plantada no
+            teto, inconsciente de que desafia a gravidade.
+          </p>
 
-<div class="blog">
+          <p>
+            Levei tanta injeï¿½ï¿½o de benzetacil que, passado meio sï¿½culo, minha
+            bunda ainda dï¿½i. Mas na ï¿½poca as picadas ardisï¿½ssimas eram rotina
+            banal. Eu presumia que todo mundo tomava toneladas de benzetacil, e
+            me curvava, dï¿½cil, ao que pensava ser o destino comum da espï¿½cie
+            humana. Minha mï¿½e conta que eu era de um bom-humor surpreendente.
+            Quando nï¿½o estava tossindo ou delirando, estava rindo.
+          </p>
 
-<div id="menu">
-<a href="/blog/archives/000006.html">&laquo; Digestão intelectual</a> |
+          <p>
+            Depois, quando repentinamente tudo passou e saï¿½ para o mundo, ele
+            era tï¿½o feio, tedioso e miserï¿½vel que aï¿½ sim comecei a me sentir
+            doente. A reserva de sonhos e imagens acumulada ao longo de anos de
+            torpor fï¿½sico revelou, entï¿½o, sua utilidade. Com grande facilidade
+            eu me isolava interiormente do cenï¿½rio em torno, fugindo para um
+            universo mais interessante, de minha prï¿½pria invenï¿½ï¿½o. Mas nï¿½o era
+            do tipo avoado. Desenvolvi uma habilidade incrï¿½vel de fazer uma
+            coisa pensando em outra, de manter uma ligaï¿½ï¿½o mï¿½nima com o ambiente
+            para que ninguï¿½m percebesse que eu nï¿½o estava ali. Na escola,
+            simulava atenï¿½ï¿½o com um centï¿½simo do cï¿½rebro, enquanto os noventa e
+            nove por cento restantes ficavam pensando em coisas lindas. A coisa
+            mais linda da galï¿½xia era o rosto de minha prima Maria Luï¿½sa, para o
+            qual fugia quando a chatice em torno se tornava insuportï¿½vel. Nï¿½o
+            era bem uma paixï¿½o (Maria Luï¿½sa jï¿½ era moï¿½a quando eu usava
+            fraldas): era uma contemplaï¿½ï¿½o extï¿½tica sem desejo, uma delï¿½cia sem
+            fim que se bastava a si mesma e poderia prosseguir pela eternidade.
+            Mas Maria Luï¿½za nï¿½o era o meu ï¿½nico refï¿½gio. Cheguei a ter longas
+            conversas com as pessoas mais chatas do universo, fingindo
+            eficazmente um interesse que as lisonjeava, enquanto por dentro
+            fantasiava as criaï¿½ï¿½es mais extraordinï¿½rias, enredos inteiros
+            repletos de aventuras, cavaleiros, princesas, castelos e dragï¿½es.
+          </p>
 
-<a href="/blog/">Main</a>
-| <a href="/blog/archives/000008.html">Um homenzinho filosófico &raquo;</a>
+          <p>
+            Mais tarde arranjei os empregos mais aborrecidos e acabrunhantes que
+            havia no mercado, e me desincumbia das tarefas com pura atenï¿½ï¿½o
+            pï¿½rifï¿½rica, voltado interiormente para outra coisa.
+          </p>
 
-</div>
+          <p>[Continua]</p>
 
-</div>
+          <a name="more"></a>
 
+          <span class="posted"
+            >Posted by Olavo at agosto 24, 2003 02:17 PM
 
-<div class="blog">
-
-<h2 class="date">agosto 24, 2003</h2>
-
-<div class="blogbody">
-
-<h3 class="title">Confissões de um brontossauro</h3>
-
-<p>Na caracterologia de René Le Senne, sou um “sentimental-passional”, o que quer dizer a mistura exata de dois tipos opostos. O sentimental puro é um contemplativo romântico que, desiludido com o mundo, prefere uma derrota digna ao envolvimento com a miséria ambiente. O passional é um ambicioso calculista, frio e paciente que nunca desiste de seus objetivos e em geral acaba por alcançá-los. A mistura significa que passo noventa por cento do tempo tentando me persuadir a aceitar uma derrota digna, mas no fundo não desisti de nada e no fim dou um jeito de conseguir o que queria. Daí a demora extraordinária de tudo na minha vida. Publiquei meu primeiro livro aos 48 anos. Comecei a lecionar numa universidade aos 50. Estreei como articulista no <i>Globo </i>aos 53, uma idade em que as tchurma só pensa em aposentadoria. Com 56, tenho planos que requerem quatro décadas de trabalho.</p>
-
-<p>Esse esquema de existência exige longas esperas, quase inconcebíveis para o imediatismo brasileiro. Conservo meus sonhos dentro de mim, em silêncio e banho-maria, longo tempo depois que o pessoal em volta acredita que os abandonei, que já estou em outra. Aos dezenove anos, maravilhado com os ensaios de Otto Maria Carpeaux que descobri em velhas edições poeirentas escondidas no fundo de uma biblioteca pública, prometi a mim mesmo reeditá-los um dia com prefácio, notas, as elegâncias todas. Comecei a realizar o plano aos 49 anos. O segundo volume está atrasado. Quando ninguém mais acreditar que ele vai sair, podem ter a certeza de que chegará às livrarias. <i>That’s the story of my bloody life</i>.</p>
-
-<p>O destino parece que me adestrou para esse passo extravagante, de tartaruga ou brontossauro, imobilizando-me por sete anos numa cama, doente, desde o nascimento. Eu passava semanas, meses com febre, delirando. Era tanto tempo prostrado, arfando, que quando emergia das sombras e me sentava na beirada da cama, tinha de reaprender a andar. Achava duvidoso que minhas pernas obedecessem ao comando do cérebro e ficava ali, ensaiando mentalmente, incrédulo, até que elas começassem a se mover por si mesmas, restaurando minha confiança na realidade do mundo físico.</p>
-
-<p>Como nunca tinha tido saúde para poder comparar com a doença, tudo me parecia inteiramente normal e eu nunca me impacientava com o estado de coisas. Ah, quanto vale a inocência! Um garoto saudável, que de repente se visse naquela situação, acrescentaria às dores e incomodidades o padecimento intolerável da revolta. Eu, que não imaginava de maneira alguma que o mundo pudesse ser melhor, me adaptava ao pior com a naturalidade de uma lagartixa plantada no teto, inconsciente de que desafia a gravidade. </p>
-
-<p>Levei tanta injeção de benzetacil que, passado meio século, minha bunda ainda dói. Mas na época as picadas ardisíssimas eram rotina banal. Eu presumia que todo mundo tomava toneladas de benzetacil, e me curvava, dócil, ao que pensava ser o destino comum da espécie humana. Minha mãe conta que eu era de um bom-humor surpreendente. Quando não estava tossindo ou delirando, estava rindo.</p>
-
-<p>Depois, quando repentinamente tudo passou e saí para o mundo, ele era tão feio, tedioso e miserável que aí sim comecei a me sentir doente. A reserva de sonhos e imagens acumulada ao longo de anos de torpor físico revelou, então, sua utilidade. Com grande facilidade eu me isolava interiormente do cenário em torno, fugindo para um universo mais interessante, de minha própria invenção. Mas não era do tipo avoado. Desenvolvi uma habilidade incrível de fazer uma coisa pensando em outra, de manter uma ligação mínima com o ambiente para que ninguém percebesse que eu não estava ali. Na escola, simulava atenção com um centésimo do cérebro, enquanto os noventa e nove por cento restantes ficavam pensando em coisas lindas. A coisa mais linda da galáxia era o rosto de minha prima Maria Luísa, para o qual fugia quando a chatice em torno se tornava insuportável. Não era bem uma paixão (Maria Luísa já era moça quando eu usava fraldas): era uma contemplação extática sem desejo, uma delícia sem fim que se bastava a si mesma e poderia prosseguir pela eternidade. Mas Maria Luíza não era o meu único refúgio. Cheguei a ter longas conversas com as pessoas mais chatas do universo, fingindo eficazmente um interesse que as lisonjeava, enquanto por dentro fantasiava as criações mais extraordinárias, enredos inteiros repletos de aventuras, cavaleiros, princesas, castelos e dragões. </p>
-
-<p>Mais tarde arranjei os empregos mais aborrecidos e acabrunhantes que havia no mercado, e me desincumbia das tarefas com pura atenção périférica, voltado interiormente para outra coisa. </p>
-
-<p>[Continua]</p>
-
-<a name="more"></a>
-
-
-<span class="posted">Posted by Olavo at agosto 24, 2003 02:17 PM
-
-<br /></span>
-
-</div>
-
-
-</div>
-</div>
-</body>
+            <br
+          /></span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
